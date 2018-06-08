@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aprendamos Java</string>
+
+    <string name="boton_iniciar">Iniciar</string>
+    <string name="boton_siguiente_pregunta">Siguiente pregunta</string>
+    <string name="boton_finalizar_preguntas">Enviar ultima respuesta</string>
+
+    <string name="texto_iniciar">Pulsa el boton para comenzar</string>
+    <string name="campoVacio">No puedes dejar la pregunta sin contestar</string>
+
+    <string name="pregunta_variables">Escribe una declaración de variables</string>
+    <string name="pregunta_ciclo_for">Escribe una declaración de un ciclo for</string>
+    <string name="pregunta_condicion_if">Escribe una declaración de condición if</string>
+
+    <!-- Resultados -->
+    <string name="titulo_resultados">Resultados</string>
+    <string name="boton_intentar_de_nuevo">Intentar de nuevo</string>
+
+    <string name="regresar_inicio">Volver al inicio</string>
+    <string name="boton_info">Acerca de</string>
+    <string name="boton_generar_pdf">Generar PDF</string>
+
+
+</resources>

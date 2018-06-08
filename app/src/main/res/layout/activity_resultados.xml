@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.app.aprendamosjava.Resultados">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_resultados"
+        android:textSize="50sp"
+        android:id="@+id/titulo_resultados" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo_resultados"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto_resultados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Texto de prueba"/>
+
+        <Button
+            android:id="@+id/boton_intentar_de_nuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/boton_intentar_de_nuevo"
+            android:textAllCaps="false"
+            android:textColor="@color/blanco"
+            android:textSize="20sp"
+            android:elevation="6dp"
+            android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/boton_PDF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/boton_generar_pdf"
+                android:textAllCaps="false"
+                android:textColor="@color/blanco"
+                android:textSize="20sp"
+                android:elevation="6dp"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/boton_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/boton_info"
+                android:textAllCaps="false"
+                android:textColor="@color/blanco"
+                android:textSize="20sp"
+                android:elevation="6dp"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
